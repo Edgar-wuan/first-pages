@@ -62,6 +62,18 @@ function search7(key){
 function search8(){
 	window.open("https://xueshu.baidu.com/s?wd="+document.getElementById('input_search').value);
 }
+function search9(key){
+	var e = key || window.event;
+	if(e && e.keyCode==13){
+		window.open("https://shequ.codemao.cn/discover?keyword="+document.getElementById('input_search').value);
+	} else {
+		
+	}
+}
+
+function search10(){
+	window.open("https://shequ.codemao.cn/discover?keyword="+document.getElementById('input_search').value);
+}
 function getTime() {
 	var date = new Date();
 	var hour = date.getHours();
